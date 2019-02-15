@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Questrial');
+
+span.title-sisfo{
+	font-weight: bold !important;
+	font-family: 'Questrial', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-left: 10px;
+}
+span.title-sisfo-ut{
+	padding-left: 10px;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+/*.text-value{
+	font-size: 40px;*/
+}
+/*.brand-card-body{
+ height: auto;
+ font-size: 20px;
+}
+.text-value-title{
+	font-weight: bold;
+	font-size: 30px;
+}
+.tes{
+	font-size:13px;
+}
+.proposal-page{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"side-1 side-2"
+}
+.side-1{
+	grid-area :side-1;
+}
+.side-2{
+	grid-area :side-2;
+}*/
+.bimbingan-page{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	grid-template-rows: 1fr;
+	grid-template-areas: 
+	"side-b-1 side-b-2 side-b-3 side-b-4 side-b-5 side-b-6 side-b-7 side-b-8"
+}
+.side-b-1{grid-area :side-b-1;}
+.side-b-2{grid-area :side-b-2;}
+.side-b-3{grid-area :side-b-3;}
+.side-b-4{grid-area :side-b-4;}
+.side-b-5{grid-area :side-b-5;}
+.side-b-6{grid-area :side-b-6;}
+.side-b-7{grid-area :side-b-7;}
+.side-b-8{grid-area :side-b-8;}
